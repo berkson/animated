@@ -20,7 +20,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
     controller =
         AnimationController(vsync: this, duration: const Duration(seconds: 2));
     // mapeia o movimento de 0 até 1 do controller de animação para os valores de 0 a 300 do tween
-    animation = CurvedAnimation(parent: controller, curve: Curves.easeInCirc);// transformando em uma curva
+    animation = CurvedAnimation(parent: controller, curve: Curves.fastOutSlowIn);// transformando em uma curva
       // incluído para fazer a imagem ir e voltar
       animation.addStatusListener((status) {
         if (status == AnimationStatus.completed) {
