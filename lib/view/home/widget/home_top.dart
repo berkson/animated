@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'catgory_view.dart';
+import 'category_view.dart';
 
 class HomeTop extends StatelessWidget {
   final Animation<double> containerGrow;
