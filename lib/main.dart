@@ -1,4 +1,3 @@
-import 'package:animations/view/home/home_screen.dart';
 import 'package:animations/view/login/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,8 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }
-

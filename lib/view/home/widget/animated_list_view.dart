@@ -16,6 +16,29 @@ class AnimatedListView extends StatelessWidget {
           title: "Estudar Flutter",
           subtitle: "Curso Udemy",
           image: const AssetImage("images/mario.jpg"),
+          margin: listSlidePosition.value * 7,
+        ),
+        ListData(
+          title: "Estudar Flutter 2",
+          subtitle: "Curso Udemy",
+          image: const AssetImage("images/mario.jpg"),
+          margin: listSlidePosition.value * 6,
+        ),
+        ListData(
+          title: "Estudar Flutter",
+          subtitle: "Curso Udemy",
+          image: const AssetImage("images/mario.jpg"),
+          margin: listSlidePosition.value * 5,
+        ),
+        ListData(
+          title: "Estudar Flutter 2",
+          subtitle: "Curso Udemy",
+          image: const AssetImage("images/mario.jpg"),
+          margin: listSlidePosition.value * 4,
+        ), ListData(
+          title: "Estudar Flutter",
+          subtitle: "Curso Udemy",
+          image: const AssetImage("images/mario.jpg"),
           margin: listSlidePosition.value * 3,
         ),
         ListData(
